@@ -3,5 +3,5 @@
 
 select *
 from {{ ref('my_first_dbt_model') }}
-where id = 1
+where id = 1 or id = 2
 
